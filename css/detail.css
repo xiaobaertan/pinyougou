@@ -1,0 +1,303 @@
+.de_container {
+    margin-top: 25px;
+}
+.crumb_wrap {
+    margin-right: 10px;
+    height: 25px;
+}
+.preview_wrap {
+    width: 400px;
+    height: 590px;
+}
+.preview_img {
+    height: 398px;
+    border: 1px solid #ccc;
+}
+.preview_list {
+    position: relative;
+    height: 60px;
+    margin-top: 60px;
+}
+.list_item {
+    width: 320px;
+    height: 60px;
+    margin: 0 auto;
+}
+.list_item li {
+    float: left;
+    width: 56px;
+    height: 56px;
+    border: 2px solid transparent;
+    margin: 0 2px;
+}
+.list_item .current {
+    border-color: #c81623;
+}
+.arrow_prev,
+.arrow_next {
+    position: absolute;
+    top: 15px;
+    width: 22px;
+    height: 32px;
+}
+.arrow_prev {
+    left: 0;
+    background: url(../img/arrow-prev.png) no-repeat;
+}
+.arrow_next {
+    right: 0;
+    background: url(../img/arrow-next.png) no-repeat;
+}
+.preview_footer {
+    padding-top: 25px;
+}
+.preview_footer em a {
+    margin-left: 35px;
+}
+.preview_footer i {
+    float: right;
+}
+.preview_footer i input {
+    vertical-align: middle;
+}
+.itemInfo_wrap {
+    width: 718px;
+}
+.sku_name {
+    height: 30px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.news {
+    height: 32px;
+    color: #e11128;
+}
+.summary dl {
+    overflow: hidden;
+}
+.summary dt,
+.summary dd {
+    float: left;
+}
+.summary dt {
+    width: 60px;
+    padding-left: 10px;
+    line-height: 36px;
+}
+.summary_price,
+.summary_promotion {
+    position: relative;
+    padding: 10px 0;
+    background-color: #fee9eb;
+}
+.price {
+    font-size: 22px;
+    color: #e12228;
+}
+.summary_price a {
+    color: #c81623;
+}
+.remark {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+.summary_promotion {
+    padding-top: 0;
+}
+.summary_promotion dd {
+    width: 450px;
+    line-height: 36px;
+}
+.summary_promotion em {
+    display: inline-block;
+    height: 22px;
+    width: 40px;
+    line-height: 22px;
+    text-align: center;
+    background-color: #c81623;
+    color: #fff;
+}
+.summary_support dd {
+    line-height: 36px;
+    color: #999;
+    font-size: 12px;
+}
+.summary_stock {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+.summary_stock dd {
+    width: 450px;
+    line-height: 36px;
+    color: #999;
+    font-family: 'icomoon';
+    font-size: 12px;
+}
+.choose_color a {
+    float: left;
+    width: 80px;
+    height: 41px;
+    margin-right: 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #ededed;
+    text-align: center;
+    line-height: 41px;
+}
+.summary a.current {
+    border-color: #c81623;
+}
+.summary a:hover {
+    border-color: #c81623;
+}
+.choose_version {
+    margin: 10px 0;
+}
+.choose_version a,
+.choose_type a {
+    display: inline-block;
+    height: 32px;
+    padding: 0 12px;
+     background-color: #f7f7f7;
+    border: 1px solid #ededed;
+    text-align: center;
+    line-height: 32px;
+}
+.choose_btns {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.choose_amount {
+    position: relative;
+    float: left;
+    width: 50px;
+    height: 46px;
+    margin-right: 10px;
+}
+.choose_amount input {
+    width: 33px;
+    height: 44px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.choose_amount .add,
+.choose_amount .reduce {
+    position: absolute;
+    right: 0;
+    width: 15px;
+    height: 22px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+.add {
+    top: 0;
+}
+.reduce {
+    bottom: 0;
+    /*禁止鼠标样式*/
+    cursor: not-allowed;
+} 
+.addcar a {
+    display: inline-block;
+    float: left;
+    width: 142px;
+    height: 46px;
+    background-color: #c81623;
+    font-size: 18px;
+    text-align: center;
+    line-height: 46px;
+    color: #fff;
+    font-weight: 700;
+}
+/*aside*/
+.aside {
+    width: 208px;
+    border: 1px solid #ccc;
+    height: 1978px;
+}
+.tab_list {
+    overflow: hidden;
+    height: 34px;
+}
+/*把背景颜色 底边框都给li*/
+.tab_list li {
+    float: left;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ccc;
+    height: 33px;
+    text-align: center;
+    line-height: 33px;
+}
+/*鼠标点击 li 变化样式 背景变白色 去掉下边框 文字变颜色*/
+.tab_list .current {
+    background-color: #fff;
+    border-bottom: 0;
+    color: #c81623;
+}
+.first_tab {
+    width: 104px;
+}
+.second_tab {
+    width: 103px;
+    border-left: 1px solid #ccc;
+}
+.tab_cont {
+    padding: 0 10px;
+}
+.tab_cont li {
+    border-bottom: 1px solid #ccc;
+}
+.tab_cont li h5 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 400;
+}
+.aside_price {
+    font-weight: 700;
+    margin: 10px 0;
+}
+.aside_addcar {
+    display: block;
+    width: 88px;
+    height: 26px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 26px;
+}
+/*detail*/
+.detail {
+    width: 978px;
+    margin-bottom: 20px;
+}
+.detail_tab_list {
+    height: 39px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+.detail_tab_list li {
+    float: left;
+    height: 39px;
+    line-height: 39px;
+    padding: 0 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.detail_tab_list .current {
+    background-color: #c81623;
+    color: #fff;
+}
+.item_info {
+    padding: 20px 0 0 20px;
+}
+.item_info li {
+    line-height: 22px;
+}
+.more {
+    float: right;
+    font-weight: 700;
+    font-family: 'icomoon';
+}

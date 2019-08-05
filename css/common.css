@@ -1,0 +1,381 @@
+/*公共样式*/
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix:after,
+.clearfix:before {
+    content: '';
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?3a2xdr');
+    src: url('../fonts/icomoon.eot?3a2xdr#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?3a2xdr') format('truetype'), url('../fonts/icomoon.woff?3a2xdr') format('woff'), url('../fonts/icomoon.svg?3a2xdr#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fr .icomoon {
+    font-family: 'icomoon';
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.style-red {
+    color: #c81623;
+}
+
+
+/*版心*/
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.spacer {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 9px 12px 0;
+}
+
+
+/*顶部快捷导航*/
+
+.shortcut {
+    height: 31px;
+    background-color: #f1f1f1;
+    line-height: 31px;
+}
+
+.shortcut li {
+    float: left;
+}
+
+
+/*header*/
+
+.header {
+    position: relative;
+    height: 105px;
+}
+
+.logo {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 175px;
+    height: 56px;
+}
+
+.logo a {
+    display: block;
+    /*overflow: hidden;*/
+    width: 175px;
+    height: 56px;
+    background: url(../img/logo.png) no-repeat;
+    /*text-indent: -999px;*/
+    font-size: 0;
+}
+
+.search {
+    position: absolute;
+    top: 25px;
+    left: 348px;
+}
+
+.text {
+    float: left;
+    width: 445px;
+    height: 32px;
+    border: 2px solid #b1191a;
+    border-right: 0;
+    color: #000;
+    padding-left: 10px;
+}
+
+.btn {
+    float: left;
+    width: 82px;
+    height: 36px;
+    background-color: #b1191a;
+    color: #fff;
+    font-size: 16px;
+}
+
+.hotwords {
+    position: absolute;
+    top: 65px;
+    left: 348px;
+}
+
+.hotwords a {
+    margin: 0 10px;
+}
+
+.shopcar {
+    position: absolute;
+    top: 25px;
+    right: 64px;
+    width: 138px;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.car {
+    font-family: 'icomoon';
+    color: #da5555;
+}
+
+.arrow {
+    font-family: 'icomoon';
+    margin-left: 5px;
+}
+
+.count {
+    position: absolute;
+    top: -5px;
+    left: 100px;
+    height: 14px;
+    line-height: 14px;
+    padding: 0 3px;
+    background-color: #e60012;
+    color: #fff;
+    border-radius: 7px 7px 7px 0;
+}
+
+
+/*nav*/
+
+.nav {
+    height: 45px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.dropdown {
+    width: 209px;
+    height: 45px;
+    background-color: pink;
+}
+
+.dropdown .dt {
+    height: 100%;
+    width: 100%;
+    background-color: #b1191a;
+    color: #fff;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.dropdown .dd {
+    height: 465px;
+    background-color: #c81623;
+    margin-top: 2px;
+}
+
+.menu_item {
+    height: 31px;
+    line-height: 31px;
+    padding: 0 10px;
+    margin-left: 1px;
+    transition: all .5s;
+}
+
+.menu_item:hover {
+    background-color: #fff;
+    padding-left: 20px;
+}
+
+
+/*鼠标经过li 里面的a变色*/
+
+.menu_item:hover a {
+    color: #c81623;
+}
+
+.menu_item a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.menu_item i {
+    float: right;
+    font-family: 'icomoon';
+    font-size: 18px;
+    color: #fff;
+}
+
+.navitem {
+    margin-left: 10px;
+}
+
+.navitem li {
+    float: left;
+}
+
+.navitem li a {
+    display: block;
+    padding: 0 25px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    color: #333;
+}
+
+.navitem li a:hover {
+    color: #b8123a;
+}
+
+
+/*footer*/
+
+.footer {
+    height: 386px;
+    padding-top: 30px;
+    background-color: #f5f5f5;
+}
+
+
+/*mod_service*/
+
+.mod_service {
+    height: 79px;
+    border-bottom: 1px solid #ccc;
+}
+
+.mod_service li {
+    float: left;
+    width: 240px;
+}
+
+.mod-service-icon {
+    float: left;
+    width: 50px;
+    height: 49px;
+    background: url(../img/icons.png) no-repeat;
+    margin-left: 35px;
+}
+
+
+/* .mod_service_zheng {
+    background-position: -253px -3px;
+}
+.mod_service_kuai {
+    background-position: -255px -54px;
+}
+.mod_service_bao{
+    background-position: -257px -106px;
+}
+.mod_service_te {
+    background-position: -257px -157px;
+}
+.mod_service_bang {
+    background-position: -257px -209px;
+} */
+
+.mod_service_title {
+    float: left;
+    margin-left: 5px;
+}
+
+.mod_service_title h5 {
+    margin: 5px 0;
+}
+
+
+/*mod_help*/
+
+.mod_help {
+    height: 187px;
+    border-bottom: 1px solid #ccc;
+}
+
+.mod_help_item {
+    float: left;
+    width: 150px;
+    margin: 20px 0 0 50px;
+}
+
+.mod_help_item dt {
+    height: 25px;
+    font-size: 16px;
+}
+
+.mod_help_item dd {
+    height: 22px;
+}
+
+.mod_help_app dt,
+.mod_help_app p {
+    padding-left: 15px
+}
+
+.mod_help_app img {
+    margin: 5px 0;
+}
+
+.mod_copyright {
+    text-align: center;
+}
+
+.mod_copyright_links {
+    margin: 20px 0 15px 0;
+}
+
+.mod_copyright_info {
+    line-height: 18px;
+}
+
+.slider_bar {
+    position: absolute;
+    right: 0;
+    top: 300px;
+    width: 90px;
+    height: 130px;
+    background-color: #ccc;
+    color: #fff;
+}
+
+.goBack {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    height: 33px;
+    line-height: 33px;
+    width: 100%;
+    padding-left: 20px;
+    background-color: #c81623;
+    cursor: pointer;
+}
+
+.goBack em {
+    position: absolute;
+    top: 14px;
+    right: 25px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    transform: rotate(45deg);
+}
